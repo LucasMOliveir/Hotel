@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|c:\\users\\luke1\\documents\\projetos\\hotelapi\\hotelapi\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|c:\\users\\luke1\\documents\\projetos\\hotelapi\\hotelapi\\entities\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\entities\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|c:\\users\\luke1\\documents\\projetos\\hotelapi\\hotelapi\\entities\\baseclasses\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\entities\\baseclasses\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|c:\\users\\luke1\\documents\\projetos\\hotelapi\\hotelapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|c:\\users\\luke1\\documents\\projetos\\hotelapi\\hotelapi\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|c:\\users\\luke1\\documents\\projetos\\hotelapi\\hotelapi\\entities\\hotelstayorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\entities\\hotelstayorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|c:\\users\\luke1\\documents\\projetos\\hotelapi\\hotelapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|c:\\users\\luke1\\documents\\projetos\\hotelapi\\hotelapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|c:\\users\\luke1\\documents\\projetos\\hotelapi\\hotelapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|c:\\users\\luke1\\documents\\projetos\\hotelapi\\hotelapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C150A516-C2B1-4F64-AB30-B2244768E569}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Entities\\Document.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Entities\\Document.cs",
+              "ToolTip": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Entities\\Document.cs",
+              "RelativeToolTip": "HotelApi\\Entities\\Document.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:40:43.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Entities\\User.cs",
+              "RelativeToolTip": "HotelApi\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:35:36.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Entities\\BaseClasses\\AuditableEntity.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Entities\\BaseClasses\\AuditableEntity.cs",
+              "ToolTip": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Entities\\BaseClasses\\AuditableEntity.cs",
+              "RelativeToolTip": "HotelApi\\Entities\\BaseClasses\\AuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:30:36.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Entities\\Address.cs",
+              "RelativeToolTip": "HotelApi\\Entities\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:29:01.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Controllers\\HotelController.cs",
+              "ToolTip": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "HotelApi\\Controllers\\HotelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:28:02.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HotelStayOrder.cs",
+              "DocumentMoniker": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Entities\\HotelStayOrder.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Entities\\HotelStayOrder.cs",
+              "ToolTip": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Entities\\HotelStayOrder.cs",
+              "RelativeToolTip": "HotelApi\\Entities\\HotelStayOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:19:08.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Program.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Program.cs",
+              "ToolTip": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Program.cs",
+              "RelativeToolTip": "HotelApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:05:39.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HotelApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HotelApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-18T13:02:19.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "HotelApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\appsettings.Development.json",
+              "RelativeToolTip": "HotelApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-18T12:54:34.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\luke1\\Documents\\Projetos\\HotelApi\\HotelApi\\appsettings.json",
+              "RelativeToolTip": "HotelApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-18T12:54:31.607Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

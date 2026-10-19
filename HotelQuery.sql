@@ -1,0 +1,142 @@
+CREATE DATABASE Hotel;
+GO
+
+USE Hotel;
+GO
+
+CREATE TABLE [User]
+(
+    UserId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    [Name] VARCHAR(200) NOT NULL,
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);
+
+CREATE TABLE AddressType
+(
+    AddressTypeId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    [Name] VARCHAR(50) NOT NULL,
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);
+
+CREATE TABLE [Address]
+(
+    AddressId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    CountryCode VARCHAR(5) NOT NULL,
+    AddressLine1 VARCHAR(200) NOT NULL,
+    AddressLine2 VARCHAR(200) NULL,
+    City VARCHAR(200) NOT NULL,
+    [State] VARCHAR(200) NOT NULL,
+    Neighborhood VARCHAR(200) NOT NULL,
+    AddressTypeId BIGINT NOT NULL
+        FOREIGN KEY REFERENCES AddressType(AddressTypeId),
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);
+
+CREATE TABLE Hotel
+(
+    HotelId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    [Name] VARCHAR(200) NOT NULL,
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);
+
+CREATE TABLE HotelUnit
+(
+    HotelUnitId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    HotelId BIGINT NOT NULL
+        FOREIGN KEY REFERENCES Hotel(HotelId),
+    AddressId BIGINT NOT NULL
+        FOREIGN KEY REFERENCES [Address](AddressId),
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);
+
+CREATE TABLE DocumentType
+(
+    DocumentTypeId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    [Name] VARCHAR(200) NOT NULL,
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);
+
+CREATE TABLE Document
+(
+    DocumentId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    DocumentTypeId BIGINT NOT NULL
+        FOREIGN KEY REFERENCES DocumentType(DocumentTypeId),
+    Document VARCHAR(200) NOT NULL,
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);
+
+CREATE TABLE Guest
+(
+    GuestId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    [Name] VARCHAR(200) NOT NULL,
+    DocumentTypeId BIGINT NOT NULL
+        FOREIGN KEY REFERENCES DocumentType(DocumentTypeId),
+    DocumentId BIGINT NOT NULL
+        FOREIGN KEY REFERENCES Document(DocumentId),
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);
+
+CREATE TABLE PaymentMethod
+(
+    PaymentMethodId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    [Name] VARCHAR(200) NOT NULL,
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);
+
+CREATE TABLE HotelStayOrder
+(
+    HotelStayOrderId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    HotelId BIGINT NOT NULL
+        FOREIGN KEY REFERENCES Hotel(HotelId),
+    HotelUnitId BIGINT NOT NULL
+        FOREIGN KEY REFERENCES HotelUnit(HotelUnitId),
+    PaymentMethodId BIGINT NOT NULL
+        FOREIGN KEY REFERENCES PaymentMethod(PaymentMethodId),
+    Paid BIT NOT NULL,
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);
+
+CREATE TABLE ProductAndService
+(
+    ProductAndServiceId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    [Name] VARCHAR(200) NOT NULL,
+    SKU VARCHAR(200) NOT NULL,
+    Price DECIMAL(18,6) NOT NULL,
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);
+
+CREATE TABLE HotelStayOrderItem
+(
+    HotelStayOrderItemId BIGINT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    ProductAndServiceId BIGINT NOT NULL
+        FOREIGN KEY REFERENCES ProductAndService(ProductAndServiceId),
+    Quantity INT NOT NULL,
+    Discount DECIMAL(18,6) NOT NULL,
+    StayCheckIn DATETIMEOFFSET NULL,
+    StayCheckOut DATETIMEOFFSET NULL,
+    DateCreated DATETIMEOFFSET NOT NULL,
+    DateUpdated DATETIMEOFFSET NULL,
+    CreatedByUser BIGINT NOT NULL
+);

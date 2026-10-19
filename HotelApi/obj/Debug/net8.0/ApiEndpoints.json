@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "HotelApi.Controllers.HotelController",
+    "Method": "GetHotel",
+    "RelativePath": "Hotel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
