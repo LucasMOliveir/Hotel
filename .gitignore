@@ -1,0 +1,11 @@
+# Visual Studio caches and local preferences
+.vs/
+*.user
+*.suo
+
+# .NET build output
+bin/
+obj/
+
+# Test output
+TestResults/
