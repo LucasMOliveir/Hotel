@@ -140,3 +140,11 @@ CREATE TABLE HotelStayOrderItem
     DateUpdated DATETIMEOFFSET NULL,
     CreatedByUser BIGINT NOT NULL
 );
+GO
+
+INSERT INTO [User] ([Name], DateCreated, DateUpdated, CreatedByUser)
+VALUES ('Lucas', SYSDATETIMEOFFSET(), SYSDATETIMEOFFSET(), 1);
+GO
+
+INSERT INTO Hotel ([Name], DateCreated, DateUpdated, CreatedByUser)
+VALUES ('HotelOne', SYSDATETIMEOFFSET(), SYSDATETIMEOFFSET(), 1);

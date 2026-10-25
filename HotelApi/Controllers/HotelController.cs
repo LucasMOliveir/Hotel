@@ -1,4 +1,4 @@
-using HotelApi.Entities;
+using HotelApi.DataAcess;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelApi.Controllers
@@ -7,20 +7,17 @@ namespace HotelApi.Controllers
     [Route("[controller]")]
     public class HotelController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult GetHotel()
-        {
-            Hotel hotel = new Hotel
-            {
-                HotelId = 1,
-                Name = "Hotel One",
-                CreatedByUser = 1,
-                DateCreated = DateTimeOffset.Now,
-                DateUpdated = DateTimeOffset.Now
-            };
+        private readonly HotelDataAcess _hotelDataAcess;
 
-            List<Hotel> hotels = new List<Hotel>();
-            hotels.Add(hotel);
+        public HotelController(HotelDataAcess hotelDataAcess)
+        {
+            _hotelDataAcess = hotelDataAcess;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetHotel()
+        {
+            var hotels = await _hotelDataAcess.GetAllAsync();
 
             return Ok(hotels);
         }
